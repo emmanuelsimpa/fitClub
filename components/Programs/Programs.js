@@ -21,7 +21,7 @@ const Programs = () => {
                         <span>{items.details}</span>
                         <div className={styles.join_now}>
                             <span>Join Now</span>
-                            <div className={styles.rightArrow}><Image src={RightArrow}/></div>
+                            <div className={styles.rightArrow}><Image src={RightArrow} alt=''/></div>
                         </div>
                     </div>
                 ))}

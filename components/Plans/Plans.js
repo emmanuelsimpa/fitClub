@@ -22,8 +22,8 @@ const Plans = () => {
                         <span className={styles.plan_price}>$ {item.price}</span>
                         <div className={styles.features}>
                             {item.features.map((item, i) => (
-                                <div className={styles.feature}>
-                                    <div className={styles.tick}><Image src={whiteTick}/></div>
+                                <div className={styles.feature} key={i}>
+                                    <div className={styles.tick}><Image src={whiteTick} alt=''/></div>
                                     <span key={i}>
                                         {item}
                                     </span>

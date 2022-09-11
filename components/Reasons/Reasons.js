@@ -27,27 +27,27 @@ const Reasons = () => {
                 </div>
                 <div className={styles.details_r}>
                     <div>
-                        <div className={styles.tick}><Image src={tick}/></div>
+                        <div className={styles.tick}><Image src={tick} alt=''/></div>
                         <span>OVER 140+ EXPERT COACHS</span>
                     </div>
                     <div>
-                    <div className={styles.tick}><Image src={tick}/></div>
+                    <div className={styles.tick}><Image src={tick} alt=''/></div>
                         <span>TRAIN SMARTER AND FASTER THAN BEFORE</span>
                     </div>
                     <div>
-                    <div className={styles.tick}><Image src={tick}/></div>
+                    <div className={styles.tick}><Image src={tick} alt=''/></div>
                         <span>1 FREE PROGRAM FOR NEW MEMBER</span>
                     </div>
                     <div>
-                    <div className={styles.tick}><Image src={tick}/></div>
+                    <div className={styles.tick}><Image src={tick} alt=''/></div>
                         <span>RELIABLE PARTNERS </span>
                     </div>
                 </div>
                 <span className={styles.partner}>OUR PARTNERS</span>
                 <div className={styles.partner_image}>
-                    <div className={styles.partner_logo}><Image src={nb}/></div>
-                    <div className={styles.partner_logo}><Image src={adidas}/></div>
-                    <div className={styles.partner_logo}><Image src={nike}/></div>
+                    <div className={styles.partner_logo}><Image src={nb} alt=''/></div>
+                    <div className={styles.partner_logo}><Image src={adidas} alt=''/></div>
+                    <div className={styles.partner_logo}><Image src={nike} alt=''/></div>
                 </div>
             </div>
         </div>

@@ -35,13 +35,13 @@ const Testimonials = () => {
                 transition={{...transition, duration: 2}} whileInView={{ opacity: 1, x:0}}></motion.div>
                 <motion.div className={styles.selectedImage} key={selected}
                 initial={{opacity: 0, x: 100}} animate={{opacity: 1, x: 0}} exit={{opacity: 0, x: -100}}
-                transition={transition}><Image src={testimonialsData[selected].image}/></motion.div>
+                transition={transition}><Image src={testimonialsData[selected].image} alt=''/></motion.div>
                 <div className={styles.arrow}>
                     <div className={styles.leftArrow}>
-                        <Image src={leftArrow} onClick={leftClick}/>
+                        <Image src={leftArrow} onClick={leftClick} alt=''/>
                     </div>
                     <div className={styles.leftArrow}>
-                        <Image src={rightArrow} onClick={rightClick}/>
+                        <Image src={rightArrow} onClick={rightClick} alt=''/>
                     </div>
                 </div>
             </div>
