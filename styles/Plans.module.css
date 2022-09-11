@@ -1,0 +1,97 @@
+.plans_container {
+    margin-top: -4rem;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    position: relative;
+}
+.plans_header {
+    color: #fff;
+    display: flex;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 700;
+    gap: 2rem;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.plans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.plan {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--caloryCard);
+    color: white;
+    gap: 2rem;
+    padding: 1.5rem;
+    /* width: 15rem; */
+}
+.plan:nth-of-type(2) {
+    background: var(--planCard);
+    transform: scale(1.1);
+}
+.plan:nth-of-type(2)>svg {
+    fill: white;
+}
+.plan:nth-of-type(2)>button {
+    color: orange;
+}
+.plan>svg {
+    fill: var(--orange);
+    width: 2rem;
+    height: 2rem;
+}
+.plan_title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.plan_price {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.see_more {
+    font-size: 0.8rem; 
+}
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.tick>span {
+    width: 1rem !important;
+}
+.plan_blur_l {
+    width: 32rem;
+    height: 23rem;
+    top: 6rem;
+    left: 0;
+}
+.plan_blur_r {
+    width: 32rem;
+    height: 23rem;
+    top: 10rem;
+    right: 0;
+}
+@media screen and (max-width: 768px){
+    .plans_header {
+        flex-direction: column;
+        gap: 1rem;
+        font-size: x-large;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .plans {
+        flex-direction: column;
+    }
+}

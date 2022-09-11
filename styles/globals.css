@@ -1,0 +1,72 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif !important;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
+::-webkit-scrollbar{
+  display: none;
+}
+
+/* make variables */
+:root{
+  --lightgray: #D9D9D9;
+  --gray: #9c9c9c;
+  --orange: #f48915;
+  --darkGrey: #464D53;
+  --caloryCard: #656565;
+  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  --appColor:  #3c3f45;
+}
+
+/* Outline Text */
+.stroke_text {
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+/* Buttons */
+.btn {
+  background-color: white;
+  padding: 0.5rem;
+  font-weight: bold;
+  border: 4px solid transparent;
+  transition: 300ms all;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+/* Blur */
+.blur {
+  background: rgba(253, 120, 43, 0.69);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -9;
+}
