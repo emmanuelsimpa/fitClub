@@ -1,10 +1,12 @@
 ## PROJECT NAME
 **FITNESS PROJECT**
-Project url : `https://fitnessproject.vercel.app/`
+* Project url : `https://fitnessproject.vercel.app/`
 
 ## PROJECT DESCRIPTION
 > It all about fitness club and it's a responsive website.
+
 > This project is built on NEXTJS.
+
 > I used CSS Module, EmailJS and Framer Motion.
 
 ## HOW TO START THE PROGRAM
